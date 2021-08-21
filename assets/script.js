@@ -20,14 +20,10 @@ function generatePassword() {
     var confirmLower = confirm('Do you want lowercase letters?')
     var confirmNumbers = confirm('Do you want numbers?')
     var confirmSpecial = confirm('Do you want special charString?')
-    if (confirmUpper) { charString += upperCase;
-    }
-    if (confirmLower) { charString += lowerCase;
-    }
-    if (confirmNumbers) { charString += numbers;
-    }
-    if (confirmSpecial) { charString += special;
-    }
+    if (confirmUpper) { charString += upperCase;  }
+    if (confirmLower) { charString += lowerCase;  }
+    if (confirmNumbers) { charString += numbers;  }
+    if (confirmSpecial) { charString += special;  }
     var charStringLength = charString.length;
     for (var i= 0; i < userInput; i++) {
       print += charString.charAt(Math.floor(Math.random() * charStringLength));
