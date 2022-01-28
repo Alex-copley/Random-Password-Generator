@@ -1,4 +1,4 @@
-# <Random-Password-Generator>
+# <Random-Password-Generator> https://alex-copley.github.io/Random-Password-Generator/
 ## Description
 - The motivation behind this project was to be able to learn the basics of java script and which motivated me to dive deeper on loops and creating arrays with string syntax.
 ## Installation
